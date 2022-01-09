@@ -1,0 +1,51 @@
+* {
+    background: #C4FFFE;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 50%;
+    margin-left: 27.5%;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px 5px 5px;
+}
+
+.resultado {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.ganador {
+    color: #00ff00;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.no-display {
+    display: none;
+}
+
+.btn-reiniciar {
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 15%;
+    border: 3px #00ff00 solid;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+}
